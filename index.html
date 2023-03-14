@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Web Output #2</h1>
+    <table id="tb1Input">
+        <tr>
+            <td width="45%">
+                <label for="txtFname">First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="txtFname">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="txtMname">Middle Name:</label>
+            </td>
+            <td>
+                <input type="text" name="txtMname">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="txtLname">Last Name:</label>
+            </td>
+            <td>
+                <input type="text" name="txtLname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="numAge">Age:</label>
+            </td>
+            <td>
+                <input type="number" name="numAge">
+            </td>
+        </tr>
+
+        <tr style="height: 20px;">
+            <td>
+                
+            </td>
+            <td>
+                <button id="btnInsertUpdate" value="insert" disabled>Insert</button>
+                <button id="btnClear">Clear</button>
+            </td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Records</legend>
+        <p id="status" style=" color: red; font-size: 12px;"></p>
+        <table id="tb1Records" style="margin: auto; border-collapse: collapse;">
+            <!-- insert added form here -->
+        </table>
+    </fieldset>
+    <button id="btnClearItem" style="margin-top: 10px;">Clear Records</button>
+
+    <script src="main.js"></script>
+
+</body>
+</body>
+</html>
